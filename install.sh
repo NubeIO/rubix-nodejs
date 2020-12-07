@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
+set -e
 ## Install nodejs
 nodeVersion="${1:-10}"
 echo "$nodeVersion"
 curl -sL "https://deb.nodesource.com/setup_$nodeVersion.x" | sudo -E bash -
-apt install node -y
+sudo apt install nodejs -y
 
 ## Install PM2
 npm i
