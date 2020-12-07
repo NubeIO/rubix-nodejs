@@ -1,0 +1,10 @@
+{
+  "name": "rubix-nodejs",
+  "version": "1.0.0",
+  "description": "Set environment for nodejs version",
+  "author": "NubeIO",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pm2": "^4.5.0"
+  }
+}
